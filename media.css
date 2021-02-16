@@ -1,0 +1,36 @@
+@media(max-width:575px){
+    body{
+        width: 375px;
+    }
+    
+    #menu{
+        margin-bottom: 0px;
+        height: 500px;  
+    }
+    
+    #menu a{
+        display: inline-block;
+        margin: 50px;
+        border-bottom: gray 1px solid;
+        
+    }
+    
+    #shop img,#shop1 img{
+        margin-left: 0px;
+        width: 350px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    
+    #shop a,#shop1 a{
+        margin-left: 130px;
+    }
+    
+    #basement .prava{
+        margin-left: 1px;
+    }
+    
+    #basement .inst{
+        margin-left: 1px;
+    }
+}
