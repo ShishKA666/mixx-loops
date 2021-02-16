@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+}
+/*------------------------------Menu------------------------------*/
+#menu{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    margin: 75px;
+}
+
+/*---------------------------Background-----------------------------*/
+#board{
+    background-image: url(img/Background.jpg);
+    height: 500px;
+    text-align: center;
+}
+
+#board h1{
+    color: white;
+    padding-top: 100px;
+    font-size: 70px;
+}
+
+#board h3{
+    color: white;
+    margin-bottom: 100px;
+}
+
+#board a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    
+}
+
+#board a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------------Shop-----------------------------------*/
+#shop hr{
+    position: relative;
+    top: 40px;
+    border-width: 5px;
+    border-color: gray;
+}
+
+#shop h1{
+    text-align: center;
+}
+
+#shop img,#shop1 img{
+    width: 500px;
+    height: 600px;
+    margin-left: 37%;
+    margin-top: 100px;
+}
+
+#shop p,#shop1 p{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+#shop a,#shop1 a{
+    margin-left: 47%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+#shop a:hover{
+    background-color: gray;
+}
+
+#shop1 a:hover{
+    background-color: gray;
+}
+
+/*----------------------------How to buy?----------------------------*/
+
+#buy h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#buy ol{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/*-------------------------------------Contacts-----------------------*/
+#contacts h1{
+    text-align: center;
+}
+
+#contacts p{
+    text-align: center;
+}
+
+/*-----------------------------------------Basement---------------------*/
+#basement{
+    background-color: black;
+}
+
+#basement .inst{
+    color: white;
+    display: inline;
+    margin-left: 50px;
+}
+
+#basement .prava{
+    color: white;
+    display: inline;
+    margin-left: 1450px;
+}
